@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22129" started-at="2017-09-24T12:01:22Z" finished-at="2017-09-24T12:01:44Z">
+  <suite name="Suite" duration-ms="23289" started-at="2017-09-25T15:12:27Z" finished-at="2017-09-25T15:12:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22129" started-at="2017-09-24T12:01:22Z" finished-at="2017-09-24T12:01:44Z">
+    <test name="Test" duration-ms="23289" started-at="2017-09-25T15:12:27Z" finished-at="2017-09-25T15:12:51Z">
       <class name="uiAutomation.TC02_Another_Test">
-        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:uiAutomation.TC02_Another_Test@17fd0e6]" name="beforeTestStart" is-config="true" duration-ms="8483" started-at="2017-09-24T17:31:35Z" finished-at="2017-09-24T17:31:44Z">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:uiAutomation.TC02_Another_Test@1e88b3c]" name="beforeTestStart" is-config="true" duration-ms="8321" started-at="2017-09-25T20:42:40Z" finished-at="2017-09-25T20:42:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestStart -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:uiAutomation.TC02_Another_Test@17fd0e6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-09-24T17:31:44Z" finished-at="2017-09-24T17:31:44Z">
+        <test-method status="PASS" signature="TC02_Another_Test_Method()[pri:0, instance:uiAutomation.TC02_Another_Test@1e88b3c]" name="TC02_Another_Test_Method" duration-ms="0" started-at="2017-09-25T20:42:48Z" finished-at="2017-09-25T20:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_Another_Test_Method -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:uiAutomation.TC02_Another_Test@1e88b3c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-09-25T20:42:48Z" finished-at="2017-09-25T20:42:48Z">
           <params>
             <param index="0">
               <value>
@@ -22,32 +26,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC02_Another_Test_Method()[pri:0, instance:uiAutomation.TC02_Another_Test@17fd0e6]" name="TC02_Another_Test_Method" duration-ms="2" started-at="2017-09-24T17:31:44Z" finished-at="2017-09-24T17:31:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC02_Another_Test_Method -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:uiAutomation.TC02_Another_Test@17fd0e6]" name="afterMethod" is-config="true" duration-ms="533" started-at="2017-09-24T17:31:44Z" finished-at="2017-09-24T17:31:44Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:uiAutomation.TC02_Another_Test@1e88b3c]" name="afterMethod" is-config="true" duration-ms="465" started-at="2017-09-25T20:42:48Z" finished-at="2017-09-25T20:42:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC02_Another_Test_Method status=SUCCESS method=TC02_Another_Test.TC02_Another_Test_Method()[pri:0, instance:uiAutomation.TC02_Another_Test@17fd0e6] output={null}]]]>
+                <![CDATA[[TestResult name=TC02_Another_Test_Method status=SUCCESS method=TC02_Another_Test.TC02_Another_Test_Method()[pri:0, instance:uiAutomation.TC02_Another_Test@1e88b3c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="end()[pri:0, instance:uiAutomation.TC02_Another_Test@17fd0e6]" name="end" is-config="true" duration-ms="197" started-at="2017-09-24T17:31:44Z" finished-at="2017-09-24T17:31:44Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:uiAutomation.TC02_Another_Test@1e88b3c]" name="end" is-config="true" duration-ms="2190" started-at="2017-09-25T20:42:49Z" finished-at="2017-09-25T20:42:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
+        <test-method status="PASS" signature="sendReport()[pri:0, instance:uiAutomation.TC02_Another_Test@1e88b3c]" name="sendReport" is-config="true" duration-ms="4318" started-at="2017-09-25T20:42:51Z" finished-at="2017-09-25T20:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReport -->
       </class> <!-- uiAutomation.TC02_Another_Test -->
       <class name="uiAutomation.TC01_Verify_Assign_Leave_Page">
-        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@41eaa2]" name="beforeTestStart" is-config="true" duration-ms="9770" started-at="2017-09-24T17:31:22Z" finished-at="2017-09-24T17:31:32Z">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@83b407]" name="beforeTestStart" is-config="true" duration-ms="9350" started-at="2017-09-25T20:42:27Z" finished-at="2017-09-25T20:42:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestStart -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@41eaa2]" name="beforeMethod" is-config="true" duration-ms="21" started-at="2017-09-24T17:31:32Z" finished-at="2017-09-24T17:31:32Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@83b407]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2017-09-25T20:42:37Z" finished-at="2017-09-25T20:42:37Z">
           <params>
             <param index="0">
               <value>
@@ -58,22 +62,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC01_Verify_Assign_Leave_Page_Method()[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@41eaa2]" name="TC01_Verify_Assign_Leave_Page_Method" duration-ms="11" started-at="2017-09-24T17:31:32Z" finished-at="2017-09-24T17:31:32Z">
+        <test-method status="PASS" signature="TC01_Verify_Assign_Leave_Page_Method()[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@83b407]" name="TC01_Verify_Assign_Leave_Page_Method" duration-ms="8" started-at="2017-09-25T20:42:37Z" finished-at="2017-09-25T20:42:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_Verify_Assign_Leave_Page_Method -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@41eaa2]" name="afterMethod" is-config="true" duration-ms="986" started-at="2017-09-24T17:31:32Z" finished-at="2017-09-24T17:31:33Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@83b407]" name="afterMethod" is-config="true" duration-ms="796" started-at="2017-09-25T20:42:37Z" finished-at="2017-09-25T20:42:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC01_Verify_Assign_Leave_Page_Method status=SUCCESS method=TC01_Verify_Assign_Leave_Page.TC01_Verify_Assign_Leave_Page_Method()[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@41eaa2] output={null}]]]>
+                <![CDATA[[TestResult name=TC01_Verify_Assign_Leave_Page_Method status=SUCCESS method=TC01_Verify_Assign_Leave_Page.TC01_Verify_Assign_Leave_Page_Method()[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@83b407] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="end()[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@41eaa2]" name="end" is-config="true" duration-ms="2088" started-at="2017-09-24T17:31:33Z" finished-at="2017-09-24T17:31:35Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:uiAutomation.TC01_Verify_Assign_Leave_Page@83b407]" name="end" is-config="true" duration-ms="2102" started-at="2017-09-25T20:42:38Z" finished-at="2017-09-25T20:42:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

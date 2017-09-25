@@ -14,12 +14,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+import utilities.SendMailWithAttachment;
 import utilities.TestUtil;
 
 public class TestBase {
@@ -27,6 +29,7 @@ public class TestBase {
 	Properties prop = new Properties();
 	ExtentReports extent;
 	ExtentTest extentLogger;
+	File reportFile;
 	public static String fileSeperator = System.getProperty("file.separator");
 
 	public void setup() throws IOException {
@@ -35,7 +38,7 @@ public class TestBase {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy");
 		String reportName = "Automation_"+formater.format(calendar.getTime())+".html";
-		File reportFile = new File(TestUtil.createFolder("Report") + fileSeperator + reportName);
+		reportFile = new File(TestUtil.createFolder("Report") + fileSeperator + reportName);
 		extent = new ExtentReports(reportFile.toString(), false);
 		getURL();
 	}
@@ -84,6 +87,10 @@ public class TestBase {
 	@AfterClass(alwaysRun = true)
 	public void end() {
 		driver.close();
-
+			}
+	@AfterSuite
+	public void sendReport(){
+		String filename = reportFile.toString();
+		SendMailWithAttachment.sendMail(filename);
 	}
 }
